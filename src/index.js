@@ -28,8 +28,14 @@ xMinus = ((-b) - dSqrt) / (2 * a);
 
 var result = [];
 
-result.push(xPlus,xMinus);
+if (+a > 0){
+result.push(xMinus);
+result.push(xPlus);
+}
+else {
+result.push(xPlus); 
+result.push(xMinus);
+}
 return result;
-
 }
 
