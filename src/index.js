@@ -5,6 +5,6 @@ var equationSplitted = equation.split(' ');
 var a = equationSplitted[0];
 var b = equationSplitted[4];
 var c = equationSplitted[8];
-alert[c];
+
 }
 
